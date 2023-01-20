@@ -55,8 +55,8 @@ body {
 .header {
     background-color: white;
     position: absolute;
-    top: 15em;
-    left: 30em;
+    top: 55%;
+    left: 35%;
     font-size: 35px;
 
 }
@@ -121,29 +121,36 @@ body {
 .preptime {
     background-color: #dadfea;
     position: absolute;
+    padding: 10px;
     bottom: 0px;
     width: 100%;
-    padding: 1em 9em;
 }
 
-.cooking {
+.time {
+    margin: 2px 0 5px 4em;
+}
+
+.preptime div {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10em;
+    margin-top: 0px
 }
 
 .review_bann {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 }
 
 .review_head {
     font-size: 3em;
+    margin: 1.5em 0 .5em 0;
 }
 
 .stars {
     color: #a63223;
     font-size: 1.5em;
+    display: inline;
 }
 
 .reviews {
@@ -155,7 +162,8 @@ button {
     color: #ffffff;
     border: 1px solid #a63223;
     border-radius: 40px;
-    padding: 10px;
+    padding: 1em 2em;
+    margin-top: 20px;
 }
 
 .printer {
@@ -163,6 +171,7 @@ button {
     border:6px solid #9e9d9d;
     border-radius: 50%;
     padding: 2px;
+    margin-left: 15px;
 
 }
 
