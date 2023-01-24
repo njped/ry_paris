@@ -4,7 +4,7 @@ body {
 }
 
 * {
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .nav_bar, #footer {
@@ -101,9 +101,15 @@ body {
     margin-bottom: 1em;
 }
 
+.places_img {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .eat_where_img {
-    width: 375px;
-    height: 275px;
+    width: 400px;
+    height: 300px;
     border: 8px solid #dadfea;
 }
 
@@ -118,24 +124,34 @@ body {
     background-size: contain;
 }
 
-.preptime {
+.detail_back {
     background-color: #dadfea;
-    position: absolute;
     padding: 10px;
-    bottom: 0px;
     width: 100%;
 }
 
-.time {
-    margin: 2px 0 5px 4em;
+.preptime {
+    margin-left: 9em;
 }
 
-.preptime div {
+.detail_box {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-left: 10em;
-    margin-top: 0px
+    width: 60%;
+}
+
+.detail_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail_flex2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.details {
+    padding: 1em 0;
 }
 
 .review_bann {
@@ -178,7 +194,8 @@ button {
 .review_text {
     background-color: #eef0f4;
     margin: 3em 9em;
-    padding: 1em 20em
+    padding: 1em 2em;
+    font-weight: bold;
 }
 
 .review_text p {
